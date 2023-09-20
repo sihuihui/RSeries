@@ -4,10 +4,18 @@ project:
 website:
   title: "RSeries"
   navbar:
+    left:
+      - text: "R Series"
+        menu: 
+          - text: "Hands-on Exercise 1"
+            href: Hands-on_Ex01.html
+          - text: "Hands-on Exercise 2"
     right:
       - href: index.qmd
         text: Home
       - about.qmd
+
+            
 
 format:
   html:
